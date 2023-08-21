@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    username: education_directory
+    password: education_directory
+    url: jdbc:mysql://localhost:3306/education_directory
+    
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
